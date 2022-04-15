@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class home extends StatelessWidget {
@@ -20,7 +18,7 @@ class home extends StatelessWidget {
                 subtitle: Text("Alfred Simanjuntak"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
@@ -32,7 +30,7 @@ class home extends StatelessWidget {
                 subtitle: Text("W.R. Soepratman"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
@@ -44,7 +42,7 @@ class home extends StatelessWidget {
                 subtitle: Text("Ismail Marzuki"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
@@ -56,7 +54,7 @@ class home extends StatelessWidget {
                 subtitle: Text("Husein Mutahar"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
@@ -68,7 +66,7 @@ class home extends StatelessWidget {
                 subtitle: Text("Ibu Sud"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
@@ -80,7 +78,7 @@ class home extends StatelessWidget {
                 subtitle: Text("Ismail Marzuki"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
@@ -92,7 +90,7 @@ class home extends StatelessWidget {
                 subtitle: Text("Cornel Simanjuntak"),
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
-                onTap: (){
+                onTap: () {
                   return;
                 },
               ),
