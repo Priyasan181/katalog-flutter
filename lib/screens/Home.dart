@@ -4,6 +4,7 @@ import 'package:flutter_application_1/screens/detail/berkibarlah_benderaku.dart'
 import 'package:flutter_application_1/screens/detail/gugur_bunga.dart';
 import 'package:flutter_application_1/screens/detail/indonesia_pusaka.dart';
 import 'package:flutter_application_1/screens/detail/indonesia_raya.dart';
+import 'package:flutter_application_1/screens/detail/maju_tak_gentar.dart';
 import 'package:flutter_application_1/screens/detail/syukur.dart';
 
 class Home extends StatelessWidget {
@@ -117,7 +118,11 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(),
               trailing: Icon(Icons.favorite),
               onTap: () {
-                return;
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const MajuTakGentar()),
+                );
               },
             ),
             Divider(
