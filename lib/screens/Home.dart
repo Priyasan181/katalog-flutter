@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/detail/indonesia_raya.dart';
 
 class home extends StatelessWidget {
   const home({Key? key}) : super(key: key);
@@ -31,7 +32,11 @@ class home extends StatelessWidget {
                 leading: CircleAvatar(),
                 trailing: Icon(Icons.favorite),
                 onTap: () {
-                  return;
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const IndonesiaRaya()),
+                  );
                 },
               ),
               Divider(
