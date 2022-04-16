@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/screens/detail/bangun_pemuda_pemudi.dart';
 import 'package:flutter_application_1/screens/detail/indonesia_raya.dart';
 
 class Home extends StatelessWidget {
@@ -18,7 +19,11 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(),
               trailing: Icon(Icons.favorite),
               onTap: () {
-                return;
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const BangunPemudaPemudi()),
+                );
               },
             ),
             Divider(
