@@ -6,7 +6,11 @@ class IndonesiaRaya extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Indonesia Raya'),
+      ),
       body: Container(
+        padding: const EdgeInsets.all(20),
         child: Text('''Indonesia tanah airku
 Tanah tumpah darahku
 Disanalah aku berdiri
