@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/detail/bangun_pemuda_pemudi.dart';
+import 'package:flutter_application_1/screens/detail/berkibarlah_benderaku.dart';
+import 'package:flutter_application_1/screens/detail/gugur_bunga.dart';
+import 'package:flutter_application_1/screens/detail/indonesia_pusaka.dart';
 import 'package:flutter_application_1/screens/detail/indonesia_raya.dart';
+import 'package:flutter_application_1/screens/detail/syukur.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -51,7 +55,11 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(),
               trailing: Icon(Icons.favorite),
               onTap: () {
-                return;
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const IndonesiaPusaka()),
+                );
               },
             ),
             Divider(
@@ -63,7 +71,10 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(),
               trailing: Icon(Icons.favorite),
               onTap: () {
-                return;
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Syukur()),
+                );
               },
             ),
             Divider(
@@ -75,7 +86,11 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(),
               trailing: Icon(Icons.favorite),
               onTap: () {
-                return;
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const BerkibarlahBenderaku()),
+                );
               },
             ),
             Divider(
@@ -87,7 +102,10 @@ class Home extends StatelessWidget {
               leading: CircleAvatar(),
               trailing: Icon(Icons.favorite),
               onTap: () {
-                return;
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const GugurBunga()),
+                );
               },
             ),
             Divider(
